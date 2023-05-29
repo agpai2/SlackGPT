@@ -12,7 +12,10 @@ from langchain.memory import ConversationBufferWindowMemory
 from templates import career_gpt
 
 # Initializes app with bot token and socket mode handler
-app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
+app = App(
+    token=os.environ.get("SLACK_BOT_TOKEN"),
+    signing_secret=os.environ.get("SIGNING_SECRET")
+)
 
 env_path = Path('.') / '.env'
 load_dotenv(dotenv_path=env_path)
