@@ -1,0 +1,6 @@
+Flask 
+langchain
+pathlib
+python-dotenv 
+requests 
+slack-bolt
