@@ -27,7 +27,7 @@
 1. Copy the contents from `.env.local.example` to `.env`:
 
    ```shell
-   cp .env.local .env
+   cp .env.local.example .env
    ```
 
 2. Edit the `.env` file and provide the necessary configuration values for your environment.
@@ -59,6 +59,6 @@ Please ensure that your code adheres to the existing coding style and includes a
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 Feel free to customize the README file according to your specific needs and add any additional information or sections as necessary.
