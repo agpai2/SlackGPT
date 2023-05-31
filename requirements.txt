@@ -1,6 +1,10 @@
 Flask 
 langchain
 pathlib
+pinecone-client
 python-dotenv 
 requests 
+slack
 slack-bolt
+torch
+transformers
